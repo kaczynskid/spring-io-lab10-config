@@ -1,0 +1,7 @@
+info:
+  source: Config Server
+
+management:
+  context-path: /admin
+  security:
+    enabled: false
