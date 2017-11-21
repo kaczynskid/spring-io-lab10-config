@@ -1,7 +1,18 @@
 info:
-  source: Config Server
+  source: added from common config
 
 management:
   context-path: /admin
   security:
     enabled: false
+
+
+spring:
+  zipkin:
+    baseUrl: http://localhost:9100/
+  sleuth:
+    sampler:
+      percentage: 1.0
+    log:
+      json:
+        enabled: true
